@@ -97,6 +97,7 @@ def maxBelief(landscape, belief, rule, current, typ="stationary"):
     in the next iteration
     Rule 1 : The terrain type won't matter --> P(cell containing a target)
     Rule 2 : The terrain type will matter --> P(finding a target in a cell)
+    Rule 3 : Search by moving only one step at a time.
     """
     max = -1
     x,y = 0,0

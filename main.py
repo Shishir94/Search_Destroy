@@ -1,5 +1,5 @@
 from landscapeGenerator import *
-from stationaryTarget import *
+from findTarget import *
 import numpy as np
 import sys
 
